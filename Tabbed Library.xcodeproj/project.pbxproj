@@ -12,6 +12,45 @@
 		84C6CA231CC0CDA500B40628 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA211CC0CDA500B40628 /* Main.storyboard */; };
 		84C6CA251CC0CDA500B40628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA241CC0CDA500B40628 /* Assets.xcassets */; };
 		84C6CA281CC0CDA500B40628 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA261CC0CDA500B40628 /* LaunchScreen.storyboard */; };
+		84C6CA321CC0CE0600B40628 /* AuthorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6CA2F1CC0CE0600B40628 /* AuthorsViewController.swift */; };
+		84C6CA331CC0CE0600B40628 /* BooksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6CA301CC0CE0600B40628 /* BooksTableViewController.swift */; };
+		84C6CA341CC0CE0600B40628 /* BookCoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6CA311CC0CE0600B40628 /* BookCoverViewController.swift */; };
+		84C6CA531CC0CE4400B40628 /* Books.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA361CC0CE4400B40628 /* Books.plist */; };
+		84C6CA541CC0CE4400B40628 /* angels-demons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA381CC0CE4400B40628 /* angels-demons.jpg */; };
+		84C6CA551CC0CE4400B40628 /* azkaban.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA391CC0CE4400B40628 /* azkaban.jpg */; };
+		84C6CA561CC0CE4400B40628 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA3A1CC0CE4400B40628 /* background.jpg */; };
+		84C6CA571CC0CE4400B40628 /* bard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA3B1CC0CE4400B40628 /* bard.jpg */; };
+		84C6CA581CC0CE4400B40628 /* bilbo-song.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA3C1CC0CE4400B40628 /* bilbo-song.png */; };
+		84C6CA591CC0CE4400B40628 /* blindsight.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA3D1CC0CE4400B40628 /* blindsight.png */; };
+		84C6CA5A1CC0CE4400B40628 /* brain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA3E1CC0CE4400B40628 /* brain.jpg */; };
+		84C6CA5B1CC0CE4400B40628 /* chamber.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA3F1CC0CE4400B40628 /* chamber.jpg */; };
+		84C6CA5C1CC0CE4400B40628 /* da-vinci-code.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA401CC0CE4400B40628 /* da-vinci-code.jpg */; };
+		84C6CA5D1CC0CE4400B40628 /* deception-point.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA411CC0CE4400B40628 /* deception-point.jpg */; };
+		84C6CA5E1CC0CE4400B40628 /* digital-fortress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA421CC0CE4400B40628 /* digital-fortress.jpg */; };
+		84C6CA5F1CC0CE4400B40628 /* fatal-cure.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA431CC0CE4400B40628 /* fatal-cure.jpeg */; };
+		84C6CA601CC0CE4400B40628 /* fellowship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA441CC0CE4400B40628 /* fellowship.jpg */; };
+		84C6CA611CC0CE4400B40628 /* fever.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA451CC0CE4400B40628 /* fever.jpg */; };
+		84C6CA621CC0CE4400B40628 /* goblet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA461CC0CE4400B40628 /* goblet.jpg */; };
+		84C6CA631CC0CE4400B40628 /* hallows.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA471CC0CE4400B40628 /* hallows.jpg */; };
+		84C6CA641CC0CE4400B40628 /* intervention.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA481CC0CE4400B40628 /* intervention.jpg */; };
+		84C6CA651CC0CE4400B40628 /* invasion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA491CC0CE4400B40628 /* invasion.jpg */; };
+		84C6CA661CC0CE4400B40628 /* lost-symbol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA4A1CC0CE4400B40628 /* lost-symbol.jpg */; };
+		84C6CA671CC0CE4400B40628 /* phoenix.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA4B1CC0CE4400B40628 /* phoenix.jpg */; };
+		84C6CA681CC0CE4400B40628 /* prince.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA4C1CC0CE4400B40628 /* prince.jpg */; };
+		84C6CA691CC0CE4400B40628 /* return-king.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA4D1CC0CE4400B40628 /* return-king.jpg */; };
+		84C6CA6A1CC0CE4400B40628 /* shock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA4E1CC0CE4400B40628 /* shock.jpg */; };
+		84C6CA6B1CC0CE4400B40628 /* sphinx.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA4F1CC0CE4400B40628 /* sphinx.jpeg */; };
+		84C6CA6C1CC0CE4400B40628 /* stone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA501CC0CE4400B40628 /* stone.jpg */; };
+		84C6CA6D1CC0CE4400B40628 /* the-hobbit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA511CC0CE4400B40628 /* the-hobbit.jpg */; };
+		84C6CA6E1CC0CE4400B40628 /* two-towers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA521CC0CE4400B40628 /* two-towers.jpg */; };
+		84C6CA751CC0D99000B40628 /* icon-authors.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA6F1CC0D99000B40628 /* icon-authors.png */; };
+		84C6CA761CC0D99000B40628 /* icon-authors@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA701CC0D99000B40628 /* icon-authors@2x.png */; };
+		84C6CA771CC0D99000B40628 /* icon-books.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA711CC0D99000B40628 /* icon-books.png */; };
+		84C6CA781CC0D99000B40628 /* icon-books@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA721CC0D99000B40628 /* icon-books@2x.png */; };
+		84C6CA791CC0D99000B40628 /* icon-cover.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA731CC0D99000B40628 /* icon-cover.png */; };
+		84C6CA7A1CC0D99000B40628 /* icon-cover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6CA741CC0D99000B40628 /* icon-cover@2x.png */; };
+		84C6CA7C1CC0F30500B40628 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6CA7B1CC0F30500B40628 /* BookTableViewCell.swift */; };
+		84C6CA7E1CC1085D00B40628 /* AuthorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6CA7D1CC1085D00B40628 /* AuthorTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +61,45 @@
 		84C6CA241CC0CDA500B40628 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84C6CA271CC0CDA500B40628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84C6CA291CC0CDA500B40628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C6CA2F1CC0CE0600B40628 /* AuthorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorsViewController.swift; sourceTree = "<group>"; };
+		84C6CA301CC0CE0600B40628 /* BooksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksTableViewController.swift; sourceTree = "<group>"; };
+		84C6CA311CC0CE0600B40628 /* BookCoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCoverViewController.swift; sourceTree = "<group>"; };
+		84C6CA361CC0CE4400B40628 /* Books.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Books.plist; sourceTree = "<group>"; };
+		84C6CA381CC0CE4400B40628 /* angels-demons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "angels-demons.jpg"; sourceTree = "<group>"; };
+		84C6CA391CC0CE4400B40628 /* azkaban.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = azkaban.jpg; sourceTree = "<group>"; };
+		84C6CA3A1CC0CE4400B40628 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		84C6CA3B1CC0CE4400B40628 /* bard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bard.jpg; sourceTree = "<group>"; };
+		84C6CA3C1CC0CE4400B40628 /* bilbo-song.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bilbo-song.png"; sourceTree = "<group>"; };
+		84C6CA3D1CC0CE4400B40628 /* blindsight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blindsight.png; sourceTree = "<group>"; };
+		84C6CA3E1CC0CE4400B40628 /* brain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brain.jpg; sourceTree = "<group>"; };
+		84C6CA3F1CC0CE4400B40628 /* chamber.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chamber.jpg; sourceTree = "<group>"; };
+		84C6CA401CC0CE4400B40628 /* da-vinci-code.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "da-vinci-code.jpg"; sourceTree = "<group>"; };
+		84C6CA411CC0CE4400B40628 /* deception-point.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "deception-point.jpg"; sourceTree = "<group>"; };
+		84C6CA421CC0CE4400B40628 /* digital-fortress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "digital-fortress.jpg"; sourceTree = "<group>"; };
+		84C6CA431CC0CE4400B40628 /* fatal-cure.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fatal-cure.jpeg"; sourceTree = "<group>"; };
+		84C6CA441CC0CE4400B40628 /* fellowship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fellowship.jpg; sourceTree = "<group>"; };
+		84C6CA451CC0CE4400B40628 /* fever.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fever.jpg; sourceTree = "<group>"; };
+		84C6CA461CC0CE4400B40628 /* goblet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goblet.jpg; sourceTree = "<group>"; };
+		84C6CA471CC0CE4400B40628 /* hallows.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hallows.jpg; sourceTree = "<group>"; };
+		84C6CA481CC0CE4400B40628 /* intervention.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intervention.jpg; sourceTree = "<group>"; };
+		84C6CA491CC0CE4400B40628 /* invasion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = invasion.jpg; sourceTree = "<group>"; };
+		84C6CA4A1CC0CE4400B40628 /* lost-symbol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lost-symbol.jpg"; sourceTree = "<group>"; };
+		84C6CA4B1CC0CE4400B40628 /* phoenix.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = phoenix.jpg; sourceTree = "<group>"; };
+		84C6CA4C1CC0CE4400B40628 /* prince.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prince.jpg; sourceTree = "<group>"; };
+		84C6CA4D1CC0CE4400B40628 /* return-king.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "return-king.jpg"; sourceTree = "<group>"; };
+		84C6CA4E1CC0CE4400B40628 /* shock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shock.jpg; sourceTree = "<group>"; };
+		84C6CA4F1CC0CE4400B40628 /* sphinx.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sphinx.jpeg; sourceTree = "<group>"; };
+		84C6CA501CC0CE4400B40628 /* stone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stone.jpg; sourceTree = "<group>"; };
+		84C6CA511CC0CE4400B40628 /* the-hobbit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-hobbit.jpg"; sourceTree = "<group>"; };
+		84C6CA521CC0CE4400B40628 /* two-towers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "two-towers.jpg"; sourceTree = "<group>"; };
+		84C6CA6F1CC0D99000B40628 /* icon-authors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-authors.png"; sourceTree = "<group>"; };
+		84C6CA701CC0D99000B40628 /* icon-authors@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-authors@2x.png"; sourceTree = "<group>"; };
+		84C6CA711CC0D99000B40628 /* icon-books.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-books.png"; sourceTree = "<group>"; };
+		84C6CA721CC0D99000B40628 /* icon-books@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-books@2x.png"; sourceTree = "<group>"; };
+		84C6CA731CC0D99000B40628 /* icon-cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-cover.png"; sourceTree = "<group>"; };
+		84C6CA741CC0D99000B40628 /* icon-cover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-cover@2x.png"; sourceTree = "<group>"; };
+		84C6CA7B1CC0F30500B40628 /* BookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		84C6CA7D1CC1085D00B40628 /* AuthorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +116,7 @@
 		84C6CA111CC0CDA500B40628 = {
 			isa = PBXGroup;
 			children = (
+				84C6CA351CC0CE4400B40628 /* Resources */,
 				84C6CA1C1CC0CDA500B40628 /* Tabbed Library */,
 				84C6CA1B1CC0CDA500B40628 /* Products */,
 			);
@@ -56,12 +135,66 @@
 			children = (
 				84C6CA1D1CC0CDA500B40628 /* AppDelegate.swift */,
 				84C6CA1F1CC0CDA500B40628 /* ViewController.swift */,
+				84C6CA2F1CC0CE0600B40628 /* AuthorsViewController.swift */,
+				84C6CA301CC0CE0600B40628 /* BooksTableViewController.swift */,
+				84C6CA311CC0CE0600B40628 /* BookCoverViewController.swift */,
 				84C6CA211CC0CDA500B40628 /* Main.storyboard */,
 				84C6CA241CC0CDA500B40628 /* Assets.xcassets */,
 				84C6CA261CC0CDA500B40628 /* LaunchScreen.storyboard */,
 				84C6CA291CC0CDA500B40628 /* Info.plist */,
+				84C6CA7B1CC0F30500B40628 /* BookTableViewCell.swift */,
+				84C6CA7D1CC1085D00B40628 /* AuthorTableViewCell.swift */,
 			);
 			path = "Tabbed Library";
+			sourceTree = "<group>";
+		};
+		84C6CA351CC0CE4400B40628 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84C6CA6F1CC0D99000B40628 /* icon-authors.png */,
+				84C6CA701CC0D99000B40628 /* icon-authors@2x.png */,
+				84C6CA711CC0D99000B40628 /* icon-books.png */,
+				84C6CA721CC0D99000B40628 /* icon-books@2x.png */,
+				84C6CA731CC0D99000B40628 /* icon-cover.png */,
+				84C6CA741CC0D99000B40628 /* icon-cover@2x.png */,
+				84C6CA361CC0CE4400B40628 /* Books.plist */,
+				84C6CA371CC0CE4400B40628 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84C6CA371CC0CE4400B40628 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				84C6CA381CC0CE4400B40628 /* angels-demons.jpg */,
+				84C6CA391CC0CE4400B40628 /* azkaban.jpg */,
+				84C6CA3A1CC0CE4400B40628 /* background.jpg */,
+				84C6CA3B1CC0CE4400B40628 /* bard.jpg */,
+				84C6CA3C1CC0CE4400B40628 /* bilbo-song.png */,
+				84C6CA3D1CC0CE4400B40628 /* blindsight.png */,
+				84C6CA3E1CC0CE4400B40628 /* brain.jpg */,
+				84C6CA3F1CC0CE4400B40628 /* chamber.jpg */,
+				84C6CA401CC0CE4400B40628 /* da-vinci-code.jpg */,
+				84C6CA411CC0CE4400B40628 /* deception-point.jpg */,
+				84C6CA421CC0CE4400B40628 /* digital-fortress.jpg */,
+				84C6CA431CC0CE4400B40628 /* fatal-cure.jpeg */,
+				84C6CA441CC0CE4400B40628 /* fellowship.jpg */,
+				84C6CA451CC0CE4400B40628 /* fever.jpg */,
+				84C6CA461CC0CE4400B40628 /* goblet.jpg */,
+				84C6CA471CC0CE4400B40628 /* hallows.jpg */,
+				84C6CA481CC0CE4400B40628 /* intervention.jpg */,
+				84C6CA491CC0CE4400B40628 /* invasion.jpg */,
+				84C6CA4A1CC0CE4400B40628 /* lost-symbol.jpg */,
+				84C6CA4B1CC0CE4400B40628 /* phoenix.jpg */,
+				84C6CA4C1CC0CE4400B40628 /* prince.jpg */,
+				84C6CA4D1CC0CE4400B40628 /* return-king.jpg */,
+				84C6CA4E1CC0CE4400B40628 /* shock.jpg */,
+				84C6CA4F1CC0CE4400B40628 /* sphinx.jpeg */,
+				84C6CA501CC0CE4400B40628 /* stone.jpg */,
+				84C6CA511CC0CE4400B40628 /* the-hobbit.jpg */,
+				84C6CA521CC0CE4400B40628 /* two-towers.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +255,43 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C6CA761CC0D99000B40628 /* icon-authors@2x.png in Resources */,
+				84C6CA631CC0CE4400B40628 /* hallows.jpg in Resources */,
+				84C6CA5B1CC0CE4400B40628 /* chamber.jpg in Resources */,
+				84C6CA7A1CC0D99000B40628 /* icon-cover@2x.png in Resources */,
+				84C6CA6E1CC0CE4400B40628 /* two-towers.jpg in Resources */,
+				84C6CA691CC0CE4400B40628 /* return-king.jpg in Resources */,
+				84C6CA771CC0D99000B40628 /* icon-books.png in Resources */,
+				84C6CA781CC0D99000B40628 /* icon-books@2x.png in Resources */,
+				84C6CA571CC0CE4400B40628 /* bard.jpg in Resources */,
 				84C6CA281CC0CDA500B40628 /* LaunchScreen.storyboard in Resources */,
+				84C6CA6B1CC0CE4400B40628 /* sphinx.jpeg in Resources */,
+				84C6CA6C1CC0CE4400B40628 /* stone.jpg in Resources */,
+				84C6CA651CC0CE4400B40628 /* invasion.jpg in Resources */,
+				84C6CA671CC0CE4400B40628 /* phoenix.jpg in Resources */,
+				84C6CA621CC0CE4400B40628 /* goblet.jpg in Resources */,
 				84C6CA251CC0CDA500B40628 /* Assets.xcassets in Resources */,
+				84C6CA661CC0CE4400B40628 /* lost-symbol.jpg in Resources */,
+				84C6CA5D1CC0CE4400B40628 /* deception-point.jpg in Resources */,
+				84C6CA561CC0CE4400B40628 /* background.jpg in Resources */,
+				84C6CA581CC0CE4400B40628 /* bilbo-song.png in Resources */,
+				84C6CA681CC0CE4400B40628 /* prince.jpg in Resources */,
+				84C6CA5F1CC0CE4400B40628 /* fatal-cure.jpeg in Resources */,
+				84C6CA551CC0CE4400B40628 /* azkaban.jpg in Resources */,
+				84C6CA541CC0CE4400B40628 /* angels-demons.jpg in Resources */,
+				84C6CA6D1CC0CE4400B40628 /* the-hobbit.jpg in Resources */,
 				84C6CA231CC0CDA500B40628 /* Main.storyboard in Resources */,
+				84C6CA601CC0CE4400B40628 /* fellowship.jpg in Resources */,
+				84C6CA6A1CC0CE4400B40628 /* shock.jpg in Resources */,
+				84C6CA611CC0CE4400B40628 /* fever.jpg in Resources */,
+				84C6CA531CC0CE4400B40628 /* Books.plist in Resources */,
+				84C6CA5C1CC0CE4400B40628 /* da-vinci-code.jpg in Resources */,
+				84C6CA5E1CC0CE4400B40628 /* digital-fortress.jpg in Resources */,
+				84C6CA5A1CC0CE4400B40628 /* brain.jpg in Resources */,
+				84C6CA641CC0CE4400B40628 /* intervention.jpg in Resources */,
+				84C6CA591CC0CE4400B40628 /* blindsight.png in Resources */,
+				84C6CA791CC0D99000B40628 /* icon-cover.png in Resources */,
+				84C6CA751CC0D99000B40628 /* icon-authors.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +302,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C6CA341CC0CE0600B40628 /* BookCoverViewController.swift in Sources */,
+				84C6CA321CC0CE0600B40628 /* AuthorsViewController.swift in Sources */,
 				84C6CA201CC0CDA500B40628 /* ViewController.swift in Sources */,
+				84C6CA331CC0CE0600B40628 /* BooksTableViewController.swift in Sources */,
+				84C6CA7E1CC1085D00B40628 /* AuthorTableViewCell.swift in Sources */,
+				84C6CA7C1CC0F30500B40628 /* BookTableViewCell.swift in Sources */,
 				84C6CA1E1CC0CDA500B40628 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +456,7 @@
 				84C6CA2E1CC0CDA500B40628 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
